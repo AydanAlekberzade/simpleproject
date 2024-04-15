@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+  }
+  .logo {
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 10vh;
+  }
+  .secondhead {
+    /* border: 2px solid black; */
+    width: 30%;
+  }
+  ul {
+    width: 100%;
+    height: 5vh;
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none !important;
+    color: black !important;
+    font-size: 30px;
+  }
+  .icons {
+    /* border: 2px solid black; */
+    width: 10%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+  }
+  
+  .icon:hover {
+    background-color: #fbfff5;
+    border-radius: 30%;
+    font-size: 40px;
+    transition: 0.4s;
+  }
+
+
+.contact{
+  width: 100%;
+  height: 258vh;
+  /* border: 3px solid red; */
+}
+
+.contactfirst{
+  width: 100%;
+  height: 90vh;
+  /* border: 3px solid yellow; */
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-image: url(https://creafts-store-demo.myshopify.com/cdn/shop/files/ss1.jpg?v=1663750170);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.h3con{
+  color: #ffffff;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.myform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /* border: 3px solid red; */
+  height: 71vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+  /* border: 3px solid red; */
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+input:focus + label,
+input:valid + label {
+  transform: translateY(-100%) scale(0.8);
+  font-size: 12px;
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+.contactmap{
+  width: 100%;
+  height: auto;
+  height: 80vh;
+}
+
+.iframe{
+  width: 100%;
+  height: 70vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .footer{
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 48vh;
+   display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #F9F9F9;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.allres{
+    /* border: 4px solid red; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstflogo{
+    /* border: 3px solid green; */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
